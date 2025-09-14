@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navboard{
+    padding-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.navboard h2{
+    margin-left: 10px;
+}
+
+.firstnav{
+    align-items: flex-start;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0px solid;
+    margin-left: 10px;
+    color: orange;
+    list-style: none;
+    display: flex;
+}
+
+
+
+.line{
+    width: fit-content;
+    margin-left: 10px;
+}
+.line:hover{
+    border-bottom: 2px solid orange;
+}
+
+.search{
+    height: 20px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.first{
+    border: 0px solid black;
+    height: 450px;
+    width: 100%;
+    color: orange;
+    background-image: url("car1.jpg");
+    background-position: center;
+}
+.first h1{
+    margin-left: 80px;
+}
+
+body::-webkit-scrollbar{
+    display: none
+}
+
+.firstp{
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.de h2{
+    text-align: center;
+    justify-content: center;
+    font-family: cursive;
+    background-color: black;
+    width: fit-content;
+    color: orange;
+    border: 1px solid orange;
+    width: 100%;
+    height: 90%;
+    border: transparent;
+    border-bottom: 2PX solid blue;
+
+}
+
+.de p{
+    background-color: black;
+    height:fit-content;
+    width: fit-content;
+    color: white;
+    border-bottom: 2px solid orange;
+}
+
+.product{
+    margin-top: 20px;
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.product::-webkit-scrollbar{
+    display: none;
+}
+.product img{
+    transition: all .55s ease;
+}
+
+.product img:hover{
+    background: transparent;
+    transform: translateY(-15px);
+}
+
+.pic{
+    height: 450px;
+    width: 400px;
+    padding-left: 10px;
+}
+
+.main{
+    text-align: center;
+    margin-top: 35px;
+    font-size: xx-large;
+    color: orange;
+}
+
+.items{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+}
+
+.picture{
+    height: 450px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.contain{
+    box-shadow: 0px 0px 5px;
+    background-color: orange;
+}
+
+.contain{
+    transition: all .55s ease;
+}
+
+.contain:hover{
+    transform: translateY(-15px);
+}
+
+@media (max-width: 1260px) {
+    .de{
+        width: 1260px;
+    }
+
+    .navboard{
+        width:  1260px;
+    }
+
+    .first{
+        width: 1260px;
+    }
+}
+
+@media (max-width: 1298px) {
+    .contain{
+        margin-right: 10px;
+    }
+}
